@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+.main{
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 5%;
+}
+.show{
+    width: 100%;
+    position: relative;
+}
+.show input{
+    width: 40%;
+    display: inline-block;
+    font-size: 22px;
+    border: 2px solid blue;
+    color: rgb(10, 10, 10);
+}
+.show button{
+   position: absolute;
+   border: none;
+   background: blue;
+   color: white;
+   font-size: 24px;
+   margin-left: 1%;
+  
+}
+.show button:hover{
+    background: blueviolet;
+}
+#texts{
+    display: none;
+    margin-top: 20px;
+    /* background-color: white; */
+
+}
+#texts li{
+    color: white;
+    font-size: 22px;
+}
